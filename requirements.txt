@@ -1,1 +1,12 @@
-# List your Python dependencies here
+torch>=1.13
+torchvision>=0.14
+numpy
+pandas
+matplotlib
+scikit-learn
+tqdm
+Pillow
+ipykernel
+jupyter
+
+git+https://github.com/openai/CLIP.git
