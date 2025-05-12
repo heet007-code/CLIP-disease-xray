@@ -2,6 +2,8 @@
 
 This repository supports zero-shot and few-shot classification for both common and rare chest diseases using large-scale public datasets and CLIP-based models.
 
+Rare Diseases often lack high quality annotated datasets. This makes it challenging not only for doctors and radiologists, but also for researchers in divising ways to conduct proper diagnosis. Zero-shot and Few-shot learning techniques paired with the right models offer hope and support for millions of patients worldwide as a solution to this dilemna. 
+
 ---
 
 ## Datasets
