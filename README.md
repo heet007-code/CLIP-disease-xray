@@ -1,4 +1,4 @@
-# Zero/Few-Shot Chest X-Ray Classification
+# Zero-shot and Few-Shot Chest X-Ray Classification
 
 This repository supports zero-shot and few-shot classification for both common and rare chest diseases using large-scale public datasets and CLIP-based models.
 
@@ -18,8 +18,8 @@ This repository supports zero-shot and few-shot classification for both common a
 * **Link**: [MIMIC-CXR-JPG on PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/)
 * **Description**: A large, de-identified dataset of chest X-rays associated with radiology reports collected from the Beth Israel Deaconess Medical Center.
 * **Format**: JPEG images extracted from the DICOM format, paired with free-text reports.
-* **Usage in This Project**: We extract rare disease instances from the reports and construct a smaller, task-specific subset for few-shot learning and zero-shot evaluation.
-* **Note**: There are certain privacy agreements and steps that must be taken before accessing this dataset. Visit the physionet website for more details. Without these necessary steps the code for creating a mini-dataset stored under RD will not work, nor can the images be accessed. 
+* **Usage in This Project**: I extract rare disease instances from the reports and construct a smaller, task-specific subset for few-shot learning and zero-shot evaluation.
+* **Note**: There are certain privacy agreements and steps that must be taken before accessing this dataset. Visit PhysioNet or the dataset for more details. Without these necessary steps the code for creating a mini-dataset stored under RD will not work, nor can the images be accessed. 
 
 ---
 
