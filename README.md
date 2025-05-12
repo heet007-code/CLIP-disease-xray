@@ -19,13 +19,13 @@ This repository supports zero-shot and few-shot classification for both common a
 * **Description**: A large, de-identified dataset of chest X-rays associated with radiology reports collected from the Beth Israel Deaconess Medical Center.
 * **Format**: JPEG images extracted from the DICOM format, paired with free-text reports.
 * **Usage in This Project**: We extract rare disease instances from the reports and construct a smaller, task-specific subset for few-shot learning and zero-shot evaluation.
-* **Note** There are certain privacy agreements and steps that must be taken before accessing this dataset. Visit the physionet website for more details. Without these necessary steps the code for creating a mini-dataset stored under RD will not work, nor can the images be accessed. 
+* **Note**: There are certain privacy agreements and steps that must be taken before accessing this dataset. Visit the physionet website for more details. Without these necessary steps the code for creating a mini-dataset stored under RD will not work, nor can the images be accessed. 
 
 ---
 
 ## GPU & Cloud Resources
 
-This project leverages [Kaggle Notebooks](https://www.kaggle.com/code) with GPU acceleration (Tesla P100 or T4) to facilitate fast training and inference. All experiments are reproducible via provided code and notebooks.
+This project leverages [Kaggle Notebooks](https://www.kaggle.com/code) with GPU acceleration (Tesla P100, T4) to facilitate fast training and inference. All experiments are reproducible via provided code and notebooks.
 
 ---
 
@@ -45,7 +45,7 @@ The following libraries are also used in the codebase:
 * `tqdm` (progress bars)
 * `clip` (OpenAI CLIP model)
 
-We recommend using Python 3.8+ and a CUDA-enabled GPU for best performance.
+I recommend using Python 3.8+ and a CUDA-enabled GPU for best performance.
 
 ---
 
@@ -77,6 +77,7 @@ If you use this code or datasets in your research, please cite the respective so
 **MIMIC-CXR-JPG**: Johnson et al., "MIMIC-CXR: A large publicly available database of labeled chest radiographs" (arXiv 2019)
 
 **CLIP**: Radford et al., "Learning Transferable Visual Models From Natural Language Supervision" (ICML 2021)
+
 
 ---
 
