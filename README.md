@@ -64,6 +64,7 @@ zero-shot-chest-xray/
 ├── LICENSE
 ├── README.md
 ├── RD+CD.ipynb
+├── requirements.txt
 ```
 
 > Full evaluation code is combined and stored in RD+CD.ipynb for quick reference. 
