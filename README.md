@@ -10,7 +10,7 @@ This repository supports zero-shot and few-shot classification for both common a
 
 * **Link**: [NIH ChestX-ray14 on Kaggle](https://www.kaggle.com/datasets/nih-chest-xrays/data)
 * **Description**: A widely used dataset from the National Institutes of Health (NIH) containing over 100,000 frontal-view chest X-ray images from more than 30,000 unique patients.
-* **Labels**: 14 common thoracic disease labels such as Pneumonia, Effusion, Infiltration, Nodule, Mass, etc.
+* **Labels**: 14 common thoracic disease labels such as Pneumonia, Effusion, Infiltration, Nodule, Mass, etc. are present in the dataset.
 * **Purpose**: Serves as the primary dataset for the common disease classification pipeline.
 
 ### Rare Diseases: MIMIC-CXR-JPG
@@ -19,12 +19,13 @@ This repository supports zero-shot and few-shot classification for both common a
 * **Description**: A large, de-identified dataset of chest X-rays associated with radiology reports collected from the Beth Israel Deaconess Medical Center.
 * **Format**: JPEG images extracted from the DICOM format, paired with free-text reports.
 * **Usage in This Project**: We extract rare disease instances from the reports and construct a smaller, task-specific subset for few-shot learning and zero-shot evaluation.
+* **Note** There are certain privacy agreements and steps that must be taken before accessing this dataset. Visit the physionet website for more details. Without these necessary steps the code for creating a mini-dataset stored under RD will not work, nor can the images be accessed. 
 
 ---
 
 ## GPU & Cloud Resources
 
-This project leverages [Kaggle Notebooks](https://www.kaggle.com/code) with GPU acceleration (Tesla P100 or T4) to facilitate fast training and inference. All experiments are reproducible via provided scripts and notebooks.
+This project leverages [Kaggle Notebooks](https://www.kaggle.com/code) with GPU acceleration (Tesla P100 or T4) to facilitate fast training and inference. All experiments are reproducible via provided code and notebooks.
 
 ---
 
